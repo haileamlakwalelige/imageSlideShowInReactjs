@@ -1,15 +1,16 @@
 import React from 'react'
-import  Counters from './counter';
-import Temperature from './components/teperature';
+import './App.css';
+import Login from './components/login';
 function App() {
   return (
     <div>
     <h1>Hello Kingo</h1>
-    <Counters />
+    {/* <Counters />
     <Temperature />
-
+    <Sass /> */}
+    <Login />
     </div>
   )
 }
 
-export default App
+export default App;

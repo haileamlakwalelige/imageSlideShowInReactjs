@@ -1,0 +1,37 @@
+$myfont:san serif;
+$my_color:red;
+$my_font_Size:18px;
+$my_width:290px;
+$my_bgColor:black;
+
+.hello{
+    font-family:$myfont;
+    color:$my_color;
+    font-size:$my_font_Size;
+    font-weight:bold;
+}
+.container{
+    margin-top:100px;
+    margin-bottom:120px;
+    padding:10px;
+    color:$my_color;
+    font-family:$myfont;
+    background-color:$my_bgColor;
+    width:$my_width;
+    margin-left:150px;
+
+}
+input{
+    margin:10px;
+}
+
+h1{
+    color:$my_color;
+}
+.but{
+    padding:10px;
+    margin:10px;
+    border-radius:20px;
+    width:70px;
+    height:70px;
+}

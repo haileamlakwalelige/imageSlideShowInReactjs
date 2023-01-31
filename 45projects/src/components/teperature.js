@@ -14,7 +14,7 @@ function Temperature(){
     }
     return(
        <div>
-        <h1>{temp}*C</h1>
+        <h1 className="temp">{temp}*C</h1>
         <div className="button-container">
         <button onClick={increment} className="button1">Increment</button>
         <button onClick={decrement} className="button1">Decrement</button>
