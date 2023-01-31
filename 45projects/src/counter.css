@@ -1,0 +1,22 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+button{
+    width:100px;
+    height:100px;   
+}
+.divi{
+  padding:100px;  
+}
+.divi button{
+    margin-left:50px;
+    font-size:100px;
+    padding-bottom:50px;
+}
+.h2{
+    font-size: 100px;
+    font-weight:bolder;
+    padding-left:220px;
+
+}

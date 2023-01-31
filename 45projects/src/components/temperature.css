@@ -1,0 +1,42 @@
+body{
+    font-family:sans-serif;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    min-height:100vh;
+}
+.app-container{
+    height:400px;
+    width:300px;
+    background:#2b5878;
+    border-radius:20px;
+    box-shadow:10px 10px 38px 0px rgba(0,0,0,0.75)
+}
+.hot{
+    background:#ff5200;
+}
+.cold{
+    background:#035aa6;
+}
+.button-container{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.neutral{
+    background:rgb(184,184,184);
+
+}
+button:focus{
+    outline:0;
+}
+button:hover{
+    background:rgb(184,184,184);
+    cursor:pointer; 
+}
+.button1{
+    border-radius:20px;
+}
